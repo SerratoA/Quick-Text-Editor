@@ -1,6 +1,6 @@
 # Quick-Text-Editor
 A Quick Text Editor Project
 
-File Dialog GUI that allows for text input in changing the contents of a text file. 
+A File Dialog GUI created in that allows for text input in changing the contents of a text file. 
 
-File Selection and File Saving are allowed. 
+File Selection and File Saving are allowed as buttons in the quick text editor.  
