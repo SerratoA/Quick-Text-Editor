@@ -48,7 +48,7 @@ class TextEditor(Tk):
         Grid.columnconfigure(self,0,weight=1)
         Grid.rowconfigure(self,1,weight=1)
         
-        heading = Label(self,text="Welcome to Serrato's Quick Text Editor!", font="Cambria 30 bold", bg="#fffddb").grid(row=0,column=0,sticky="EW",pady=40)
+        heading = Label(self,text="Welcome to Serrato's Quick Text Editor!", font="Cambria 30 bold", bg="#501587").grid(row=0,column=0,sticky="EW",pady=40)
         self.text=Text(self, font="Verdana 10")
         self.text.grid(row=1,column=0,sticky="NSEW", padx=(15,15))
         printFile = Button(self,text='Select File',font ="Cambria 12",fg="#280137", command=lambda:self.path()).grid(row=2,column=0,sticky="NS")
